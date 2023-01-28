@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
+
 import 'package:flutter/src/widgets/framework.dart';
 
 import 'main.dart';
@@ -36,17 +36,15 @@ var products;
             ),
 
           ),
-          title: Center(
-              child: Text(
-                "Details Screen",
-                style: TextStyle(
-                    color: Colors.black,
-                  fontSize: 30
-                ),
-
-              )
+          title: Text(
+            "Details Screen",
+            style: TextStyle(
+                color: Colors.black,
+              fontSize: 30
+            ),
           ),
-          backgroundColor: Colors.white,
+           backgroundColor: Colors.white,
+           centerTitle: true ,
         ),
       body:  Padding(
         padding: const EdgeInsets.only(

@@ -78,16 +78,15 @@ class _Screen1State extends State<Screen1> {
 
     return Scaffold(
         appBar: AppBar(
-          title: Center(
-              child: Text(
-                "SHOPPERS",
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 30,
-                ),
-              )
+          title: Text(
+            "SHOPPERS",
+            style: TextStyle(
+                color: Colors.black,
+                fontSize: 30,
+            ),
           ),
           backgroundColor: Colors.white,
+          centerTitle: true,
         ),
         body: Padding(
           padding: EdgeInsets.only(
